@@ -55,3 +55,34 @@
 .offer-img img{
     width: 500px;
 }
+
+/* party section */
+.party-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 80px auto;
+    padding: 60px;
+    /* background */
+    background-image: url("images/Vectorrr.png");
+    background-size: cover;
+    border-radius: 15px;
+}
+.party-content{
+    max-width: 500px;
+}
+.party-content h1{
+    color: #FFF;
+    font-size: 70px;
+}
+.party-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+}
+.party-content button{
+    color: #FFF;
+    text-align: center;
+    background-repeat: no-repeat;
+    border: none;
+}
