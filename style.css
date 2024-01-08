@@ -1,49 +1,57 @@
 *{
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 .banner{
     width: 80%;
     height: 600px;
-    background-image:  
-            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-            url("images/Banner\ Image.png"); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("images/Banner\ Image.png"); 
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 50px;
+    
 }
 .banner-text{
-    color: white;
-    
+    color: white;  
 }
 .banner-text h4{
     text-align: center;
-    font-size: 30px;
-    
+    font-size: 25px;
+    color: #FFF;
 }
 .banner-text h1{
     text-align: center;
     font-size: 70px;
 }
-main h1{
+.offer-section{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+}
+.offer-section h1{
     text-align: center;
     font-size: 65px;
     color: red;
     margin-bottom: 45px;
 }
-main p{
+.offer-section p{
     color: red;
     text-align: center;
     font-size: small;
 }
-main h2{
+.offer-section h2{
     text-align: center;
     font-weight: bold;
-
+    margin-bottom: 40px;
+}
+.offer-img img{
+    width: 500px;
 }
