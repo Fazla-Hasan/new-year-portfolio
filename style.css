@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner{
+    width: 80%;
+    height: 600px;
+    background-image:  
+            linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+            url("images/Banner\ Image.png"); 
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.banner-text{
+    color: white;
+    
+}
+.banner-text h4{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.banner-text h1{
+    text-align: center;
+    font-size: 70px;
+}
+main h1{
+    text-align: center;
+    font-size: 65px;
+    color: red;
+    margin-bottom: 45px;
+}
+main p{
+    color: red;
+    text-align: center;
+    font-size: small;
+}
+main h2{
+    text-align: center;
+    font-weight: bold;
+
+}
