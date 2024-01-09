@@ -93,7 +93,7 @@ ul{
     color: #F00;
 
 }
-li .red-button{
+.red-button{
     background-color: #F00;
     border: 0;
     color: white;
@@ -112,6 +112,8 @@ li .red-button{
     padding: 5px;
     list-style: none;
     font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
 }
 .coming-section{
     display: flex;
@@ -186,7 +188,7 @@ li .red-button{
 }
 
 .portfolio-img{
-    width: 350px;
+    width: 310px;
     margin: 8px;
 }
 footer{
@@ -241,7 +243,10 @@ hr{
 .newsletter h1{
     font-size: 40px;
 }
-.newsletter h1, p{
+.newsletter h1{
+    text-align: center;
+}
+.newsletter p{
     text-align: center;
 }
 .input-button{
@@ -288,8 +293,11 @@ hr{
 }
 .img-2{
     position: absolute;
-    right: 29%;
+    right: 27%;
 }
 .img-3{
     width: 35%;
+}
+.red-line img{
+    width: 100%;
 }
