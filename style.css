@@ -260,4 +260,36 @@ hr{
     border-radius: 0 20px 20px 0;
     padding: 15px;
 }
-
+.sale-text{
+    text-align: center;
+}
+.sale-text h4{
+    font-size: 20px;
+}
+.sale-text .red-word{
+    color: #F00;
+}
+.sale-text h1{
+    font-size: 55px;
+}
+.sale-banner{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.banner-image{
+    display: flex;
+    align-items: center;
+}
+.img-1{
+    width: 65%;
+    position: relative;
+    top: 220px;
+}
+.img-2{
+    position: absolute;
+    right: 29%;
+}
+.img-3{
+    width: 35%;
+}
